@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.cartao {
+    width: 350px; 
+    height: 200px; 
+    background: linear-gradient(135deg, #009e9c, #702283);
+    border-radius: 15px;
+    color: white;
+    font-family: 'Agdasima', sans-serif; 
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo, .chip, .contactless, .mastercard {
+    position: absolute;
+}
+
+.logo { top: 20px; right: 20px; }
+.chip { top: 80px; left: 40px; width: 50px; } 
+.contactless { top: 80px; left: 100px; width: 28px; } 
+.mastercard { bottom: 13px; right: 20px; width: 76px; } 
+
+.numero {
+    margin-top: 106px;
+    font-size: 2.0em;
+    letter-spacing: 4px;
+    text-align: center;
+    background: linear-gradient(135deg, #8a8b8a, #e1e2e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.nome{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    font-size: 1.5em;
+    font-family: 'Agdasima', sans-serif;
+    background: linear-gradient(135deg, #8a8b8a, #e1e2e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.validade{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    padding: 0 72px;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    font-family: 'Agdasima', sans-serif;
+    background: linear-gradient(135deg, #8a8b8a, #e1e2e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.nome-validade {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    padding: 0 30px;
+    font-size: 0.9em;
+    font-family: 'Agdasima', sans-serif;
+    background: linear-gradient(135deg, #8a8b8a, #e1e2e1);
+    -webkit-background-clip: text;
+    
+}
+.nome-validadeT {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3px;
+    padding: 0 30px;
+    font-size: 0.9em;
+    font-family: 'Agdasima', sans-serif;
+    background: linear-gradient(135deg, #8a8b8a, #e1e2e1);
+    -webkit-background-clip: text;
+}
